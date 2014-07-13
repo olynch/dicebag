@@ -8,7 +8,9 @@ Well then this is the dicebag for you. It even allows you to define custom dice,
 Usage
 ===
 
-To start the program, run `python dicebag.py [filename]` where filename is the optional name of the file that contains custom dice definitions.
+Note: YOU MUST USE PYTHON 3.x TO RUN THIS
+
+To start the program, run `python3 dicebag.py [filename]` where filename is the optional name of the file that contains custom dice definitions.
 
 For basic usage, just type out whatever dice you want to roll. Dice are seperated by spaces, and in the format `xdy`, where x is the number of dice you wish to roll, and y is the number of sides each dice has. Modifiers start with a `+` or `-`, and are just integers that are added to the final result. To roll a custom die, just type its name, for instance `dagger`.
 
